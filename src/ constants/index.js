@@ -12,7 +12,8 @@ export const HERO = {
     title: '& Protection Made Simple',
     subTitle: 'Your safety is our priority, we provide complete safety process and training',
     primaryBtnText: 'All Services',
-    secondaryBtnText: 'Contact Us'
+    secondaryBtnText: 'Contact Us',
+    happyClients: '10K + Happy Clients'
 }
 
 
