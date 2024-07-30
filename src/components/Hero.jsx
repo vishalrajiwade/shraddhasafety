@@ -7,7 +7,7 @@ import heroImg from '../assets/images/hero-img.jpg';
 const Hero = () => {
   return (
     <>
-        <section className=' bg-heroBg h-[100vh]'>
+        <section className='bg-hero-bg  h-[100vh]'>
             <div className="mx-auto container flex justify-between items-center h-full">
                 <div className=" max-w-7xl flex flex-col justify-center gap-8 px-6 lg:px-0">
                     <h1 className='text-white font-bold text-5xl lg:text-6xl leading-snug max-w-[90vw] md:w-[60vw] lg:w-[50vw]'>
@@ -34,7 +34,7 @@ const Hero = () => {
                         {HERO.happyClients}</p>
                 </div>
                 <div className="hidden lg:flex overflow-hidden absolute right-20 bottom-[-93px]">
-                    <img src={heroImg} alt="Hero Image" className='h-[600px] rounded-tr-[150px] rounded-br-3xl'/>
+                    <img src={heroImg} alt="Hero Image" className='lg:h-[600px] md:h-[500px] rounded-tr-[150px] rounded-br-3xl'/>
                 </div>
             </div>
         </section>

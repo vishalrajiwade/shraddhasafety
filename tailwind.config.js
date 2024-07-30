@@ -6,9 +6,13 @@ export default {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        'hero-bg': "url('./src/assets/images/hero-bg.png')",
+      },
       colors:{
         blue:'#0A5FF9',
         darkBlue:'#0442b2',
+        paleBlue:'#E1F4F7',
         heroBg:'#012935',
       },
       fontFamily: {
