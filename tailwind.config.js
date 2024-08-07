@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        'hero-bg': "url('./src/assets/images/hero-bg.png')",
+        'pattern-bg': "url('./src/assets/images/hero-bg.png')",
       },
       colors:{
         blue:'#0A5FF9',

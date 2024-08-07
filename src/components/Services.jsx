@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import safetyAuditImg from '../assets/images/safety-audit.png';
 import riskAssesImg from '../assets/images/risk-assessment.png';
 import fireSafetyImg from '../assets/images/fire-safety.png';
@@ -63,12 +64,12 @@ const Services = () => {
                 </div>
             </div>
             <div className="flex justify-center items-center">
-                <a 
-                    href="/services"
+                <Link 
+                    to="/services"
                     className='bg-blue border-2 border-blue rounded-full text-white px-6 py-3 hover:bg-white hover:text-black'    
                 >
                     Browse Services
-                </a>
+                </Link>
             </div>
             
         </div>

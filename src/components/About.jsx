@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import AboutImage from '../assets/images/about.png'
 import BulbImg from '../assets/images/light-bulb.png'
 import RelationImg from '../assets/images/relations.png'
@@ -36,12 +37,12 @@ const About = () => {
                     <h2 className='text-black font-urbanist font-bold text-2xl lg:text-3xl'>Customer Relations</h2>
                 </div>
                 <div className="pt-6 flex justify-start items-center">
-                <a 
-                    href="/services"
+                <Link 
+                    to="/services"
                     className='bg-blue border-2 border-blue rounded-full text-white px-6 py-3 hover:bg-white hover:text-black'    
                 >
                     Browse Services
-                </a>
+                </Link>
             </div>
             </div>
 

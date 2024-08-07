@@ -1,11 +1,12 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import Logo from '../assets/images/logo-white.svg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope, faPhone} from '@fortawesome/free-solid-svg-icons'
 
 const Footer = () => {
   return (
-    <footer className='bg-heroBg'>
+    <footer className='bg-pattern-bg bg-center bg-cover'>
         <div className="container mx-auto flex flex-col lg:flex-row px-8 py-10 gap-8">
             <div className='flex flex-col items-start gap-4 lg:w-2/4'>
                 <img src={Logo} alt="Logo" className='h-12'/>
@@ -18,21 +19,21 @@ const Footer = () => {
                 </h4>
 
                 <div className='flex flex-col gap-2'>
-                    <a href='/' className=' text-gray-400 font-light hover:text-blue hover:font-normal'>
+                    <Link to='/' className=' text-gray-400 font-light hover:text-blue hover:font-normal'>
                         Home
-                    </a>
-                    <a href='/' className=' text-gray-400 font-light hover:text-blue hover:font-normal'>
+                    </Link>
+                    <Link to='/about' className=' text-gray-400 font-light hover:text-blue hover:font-normal'>
                         About Us
-                    </a>
-                    <a href='/' className=' text-gray-400 font-light hover:text-blue hover:font-normal'>
+                    </Link>
+                    <Link to='/services' className=' text-gray-400 font-light hover:text-blue hover:font-normal'>
                         Services
-                    </a>
-                    <a href='/' className=' text-gray-400 font-light hover:text-blue hover:font-normal'>
+                    </Link>
+                    <Link to='/trainings' className=' text-gray-400 font-light hover:text-blue hover:font-normal'>
                         Trainings
-                    </a>
-                    <a href='/' className=' text-gray-400 font-light hover:text-blue hover:font-normal'>
+                    </Link>
+                    <Link to='/contact' className=' text-gray-400 font-light hover:text-blue hover:font-normal'>
                         Contact Us
-                    </a>
+                    </Link>
                 </div>
             </div>
                 
