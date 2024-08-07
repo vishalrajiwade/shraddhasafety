@@ -16,7 +16,7 @@ const Trainings = () => {
             </div>
             <div className="px-12 lg:px-0 flex flex-col justify-between items-center lg:flex-row gap-8">
                 {/* Training 1 */}
-                <div className='bg-white border border-gray-200 relative rounded-md'>
+                <div className='bg-white border shadow-md border-gray-200 relative rounded-md'>
                     <div>
                         <img src={ERTImg} alt="Training1" />
                         <span className='absolute top-4 left-4 px-2 py-1 z-10 bg-blue text-white'> Training</span>
@@ -27,7 +27,7 @@ const Trainings = () => {
                         <div className='bg-gray-300 h-[1px] w-full mb-2'></div>
                         <Link 
                             to="/training/ert"
-                            className='bg-blue border-2 border-blue rounded-full text-white px-8 py-2 hover:bg-white hover:text-black'    
+                            className='bg-white border-2 border-blue rounded-lg text-black px-4 py-1 hover:bg-blue hover:text-white'    
                         >
                             View
                         </Link>
@@ -35,7 +35,7 @@ const Trainings = () => {
                 </div>
 
                 {/* Training 2 */}
-                <div className='bg-white border border-gray-200 relative rounded-md'>
+                <div className='bg-white border shadow-md border-gray-200 relative rounded-md'>
                     <div>
                         <img src={ETPImg} alt="Training1" />
                         <span className='absolute top-4 left-4 px-2 py-1 z-10 bg-blue text-white'> Training</span>
@@ -46,7 +46,7 @@ const Trainings = () => {
                         <div className='bg-gray-300 h-[1px] w-full mb-2'></div>
                         <Link 
                             to="/training/etp"
-                            className='bg-blue border-2 border-blue rounded-full text-white px-8 py-2 hover:bg-white hover:text-black'    
+                            className='bg-white border-2 border-blue rounded-lg text-black px-4 py-1 hover:bg-blue hover:text-white'    
                         >
                             View
                         </Link>
@@ -54,7 +54,7 @@ const Trainings = () => {
                 </div>
 
                 {/* Training 3 */}
-                <div className='bg-white border border-gray-200 relative rounded-md'>
+                <div className='bg-white border shadow-md border-gray-200 relative rounded-md'>
                     <div>
                         <img src={TeamBuildingImg} alt="Training1" />
                         <span className='absolute top-4 left-4 px-2 py-1 z-10 bg-blue text-white'> Training</span>
@@ -65,7 +65,7 @@ const Trainings = () => {
                         <div className='bg-gray-300 h-[1px] w-full mb-2'></div>
                         <Link 
                             to="/training/team"
-                            className='bg-blue border-2 border-blue rounded-full text-white px-8 py-2 hover:bg-white hover:text-black'    
+                            className='bg-white border-2 border-blue rounded-lg text-black px-4 py-1 hover:bg-blue hover:text-white'    
                         >
                             View
                         </Link>
@@ -73,7 +73,7 @@ const Trainings = () => {
                 </div>
 
                 {/* Training 4 */}
-                <div className='bg-white border border-gray-200 relative rounded-md'>
+                <div className='bg-white border shadow-md border-gray-200 relative rounded-md'>
                     <div>
                         <img src={HouseKeepingImg} alt="Training1" />
                         <span className='absolute top-4 left-4 px-2 py-1 z-10 bg-blue text-white'> Training</span>
@@ -84,7 +84,7 @@ const Trainings = () => {
                         <div className='bg-gray-300 h-[1px] w-full mb-2'></div>
                         <Link 
                             to="/training/housekeeping"
-                            className='bg-blue border-2 border-blue rounded-full text-white px-8 py-2 hover:bg-white hover:text-black'    
+                            className='bg-white border-2 border-blue rounded-lg text-black px-4 py-1 hover:bg-blue hover:text-white'    
                         >
                             View
                         </Link>
