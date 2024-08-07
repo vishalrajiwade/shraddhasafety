@@ -33,7 +33,8 @@ const Navbar = () => {
                 </a>
             </div>
             <a 
-                href="/"
+                target='_blank'
+                href="https://drive.google.com/file/d/1e2IpDuy7hDaDEu-KZWCNMlexPIfRvZcl/view?usp=drive_link"
                 className='lg:flex hidden bg-blue text-white px-6 py-2 rounded-full hover:bg-white hover:text-black hover:border hover:border-black'    
             >
                 <FontAwesomeIcon className='mr-2 mt-1' icon={faDownload} />

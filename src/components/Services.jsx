@@ -6,7 +6,7 @@ import mockDrillImg from '../assets/images/mock-drill.png';
 
 const Services = () => {
   return (
-    <section className='h-[100vh] bg-white'>
+    <section className='h-full bg-white'>
         <div className="container mx-auto flex flex-col justify-center py-32
         gap-16 ">
             <div className="flex flex-col justify-center items-center gap-4">
@@ -15,8 +15,8 @@ const Services = () => {
             </div>
             <div className="flex flex-col gap-8 lg:flex-row justify-center items-center">
                 {/* Service Card 1 */}
-                <div className="relative w-10/12 py-16 rounded-md flex flex-col justify-center items-center gap-3 border-2 border-gray-100 hover:border-blue hover:rounded-tr-[100px] ease-in-out duration-500">
-                    <div className="rounded-full w-16 h-16 bg-paleBlue flex justify-center items-center">
+                <div className="group relative w-10/12 py-16 rounded-md flex flex-col justify-center items-center gap-3 border-2 border-gray-100 hover:border-blue hover:rounded-tr-[100px] ease-in-out duration-500">
+                    <div className="rounded-full w-16 h-16 bg-paleBlue flex justify-center items-center group-hover:bg-blue">
                         <img className='h-9' src={safetyAuditImg} alt="" />
                     </div>
                     <h3 className='text-center font-urbanist font-bold text-2xl'>Safety Audit</h3>
@@ -27,8 +27,8 @@ const Services = () => {
                 </div>
 
                 {/* Service Card 2 */}
-                <div className="relative w-10/12 py-16 rounded-md flex flex-col justify-center items-center gap-3 border-2 border-gray-100 hover:border-blue hover:rounded-tr-[100px] ease-in-out duration-500">
-                    <div className="rounded-full w-16 h-16 bg-paleBlue flex justify-center items-center">
+                <div className="group relative w-10/12 py-16 rounded-md flex flex-col justify-center items-center gap-3 border-2 border-gray-100 hover:border-blue hover:rounded-tr-[100px] ease-in-out duration-500">
+                    <div className="rounded-full w-16 h-16 bg-paleBlue flex justify-center items-center group-hover:bg-blue">
                         <img className='h-9' src={riskAssesImg} alt="" />
                     </div>
                     <h3 className='text-center font-urbanist font-bold text-2xl'>Risk Assessment</h3>
@@ -39,8 +39,8 @@ const Services = () => {
                 </div>
 
                 {/* Service Card 3 */}
-                <div className="relative w-10/12 py-16 rounded-md flex flex-col justify-center items-center gap-3 border-2 border-gray-100 hover:border-blue hover:rounded-tr-[100px] ease-in-out duration-500">
-                    <div className="rounded-full w-16 h-16 bg-paleBlue flex justify-center items-center">
+                <div className=" group relative w-10/12 py-16 rounded-md flex flex-col justify-center items-center gap-3 border-2 border-gray-100 hover:border-blue hover:rounded-tr-[100px] ease-in-out duration-500">
+                    <div className="rounded-full w-16 h-16 bg-paleBlue flex justify-center items-center group-hover:bg-blue">
                         <img className='h-9' src={fireSafetyImg} alt="" />
                     </div>
                     <h3 className='text-center font-urbanist font-bold text-2xl'>Fire Safety Audit</h3>
@@ -51,8 +51,8 @@ const Services = () => {
                 </div>
 
                 {/* Service Card 4 */}
-                <div className="relative w-10/12 py-16 rounded-md flex flex-col justify-center items-center gap-3 border-2 border-gray-100 hover:border-blue hover:rounded-tr-[100px] ease-in-out duration-500">
-                    <div className="rounded-full w-16 h-16 bg-paleBlue flex justify-center items-center">
+                <div className="group relative w-10/12 py-16 rounded-md flex flex-col justify-center items-center gap-3 border-2 border-gray-100 hover:border-blue hover:rounded-tr-[100px] ease-in-out duration-500">
+                    <div className="rounded-full w-16 h-16 bg-paleBlue flex justify-center items-center group-hover:bg-blue">
                         <img className='h-9' src={mockDrillImg} alt="" />
                     </div>
                     <h3 className='text-center font-urbanist font-bold text-2xl'>Mock Drills</h3>
